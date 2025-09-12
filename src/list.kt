@@ -1,6 +1,16 @@
 private fun main(){
 
-    val numbersList = listOf(1,3,4,5)
-    println(numbersList[1])
+    /**
+     * list is immutable and for read only
+     * In mutable List we can add element
+     */
+
+    val numbersList = mutableListOf(1,3,4,5)
+    println(numbersList)
     println(numbersList.indexOf(3))
+
+    numbersList.add(100)
+    println(numbersList)
+
+
 }
