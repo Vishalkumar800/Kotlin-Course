@@ -11,33 +11,10 @@ import java.util.Locale
 //Double size is 8bytes = 64 bits
 
 fun main(){
-    var age = 8.0098
+    var age = 8.00728277612
     println(age)
     println(age::class.simpleName)
 
-    val name = "My name is Vishal"
-    println(name.uppercase())
-    println(name.lowercase())
-
-    println("Functions")
-    name()
-    println(add(4,9))
-    addPrint(9,8)
+    var isRight = false
+    println(isRight)
 }
-
-/**
- * Function is a block of code that perform a specific task . It can take input parameters and can return a value.
- */
-
-fun name(){
-    println("Vishal")
-}
-
-fun add(a: Int, b: Int): Int{
-    return a+b
-}
-
-fun addPrint(a: Int , b : Int){
-    println(a+b)
-}
-
